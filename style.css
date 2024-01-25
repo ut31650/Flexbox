@@ -1,0 +1,97 @@
+body{
+    min-width: 250px;
+    max-width: 1500px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  section {
+    width: 100%;
+    background-color: rgb(232, 194, 194);
+    display: flex;
+    justify-content: space-between;
+  }
+  section div {
+    flex-basis: 30%;
+    padding: 40px;
+    margin: 30px;
+    border: 2px solid black;
+  }
+  .flex1 {
+    flex: 0.1;
+    background-color: forestgreen;
+  }
+  .flex2 {
+    flex: 80;
+    background-color: forestgreen;
+  }
+  .flex3 {
+    flex: 1;
+    background-color: forestgreen;
+  }
+  
+  .one > div {
+    flex: basis 30%;
+    padding: 40px;
+    margin: 30px;
+    border: 2px solid black;
+  }
+  .flex4 {
+    flex: 8;
+    background-color: forestgreen;
+  }
+  .flex5 {
+    flex: 0.1;
+    background-color: forestgreen;
+  }
+  .flex6 {
+    flex: 2;
+    background-color: forestgreen;
+  }
+  
+  .two > div div {
+    flex: basis 30%;
+    padding: 40px;
+    margin: 30px;
+    border: 2px solid black;
+  }
+  .flex7 {
+    flex: .01;
+    background-color: forestgreen;
+  }
+  .flex8 {
+    flex: 3;
+    background-color: forestgreen;
+  }
+  .flex9 {
+    flex:10;
+    background-color: forestgreen;
+  }
+  
+  
+  .third > div div div {
+    flex: basis 0%;
+    padding: 40px;
+    margin: 30px;
+    border: 2px solid black;
+  }
+  .flex10 {
+    flex: 1;
+    background-color: forestgreen;
+  }
+  .flex11 {
+    flex: 0.1;
+    background-color: forestgreen;
+  }
+  .flex12 {
+    flex:2;
+    background-color: forestgreen;
+  }
+  .flex13 {
+    flex:0.1;
+    background-color: forestgreen;
+  }
+  .flex14 {
+    flex:2;
+    background-color: forestgreen;
+  }
